@@ -2,87 +2,113 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
-    background: #000;
+    margin: 0px;
 }
-.row1{
+.section-one{
+    background-color: #232323;
+    height: 50px;
+}
+.box{
+    padding: 20px 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
 }
-.col1{
-    display: flex;
-    gap: 10px;
-}
-.col2{
-    align-self: flex-end;
-    text-align: right;
-}
-a{
+.links , .contact-info{
     color: white;
-    text-decoration: none;
 }
-header{
-    height: 100px;
+.section-two{
     background-color: white;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 20px;
-    height: 100%;
+    height: 120px;
 }
 ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: nowrap;
     gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
 }
 li{
-    width: 100px;
-    color: black;
-    font-weight: bold;
+    padding: 10px;
+    list-style: none;
 }
 li:hover{
-    background-color: green;
-    border-radius: 5px;
+    background-color: #8ABA56;
 }
-.section-one{
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
+.section-three{
+    padding-top: 90px;
+    background-color: #232323;
+    height: 600px;
 }
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 50px;
+.card{
     background-color: white;
-    height: 450px;
+    height: 400px;
     width: 300px;
+
 }
-.first-part{
-    background-color: grey;
-    width: 300px;
-    height: 80px;
-}
-.second-part{
+.card-section-one {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #F3F3F3;
+    margin: 0;
     display: flex;
-    justify-content: center; /* Center the text horizontally */
-    align-items: center;
-    width: 200px;
-    height: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.card-section-two{
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
     font-style: italic;
-}
-.third-part{
+    line-height: 2;
     display: flex;
-    justify-content: center; /* Center the text horizontally */
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.card-section-three{
+    background-color: #8ABA56;
+    text-decoration: none;
     height: 50px;
-    width: 300px;
-    background-color: lightgreen;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.section-four{
+    background-color: white;
+    height: 600px;
+}
+.col-one {
+    position: relative;
+    width: 100%; 
+    margin: 0 auto;
+}
+.positioning {
+    position: absolute;
+    bottom: 4px; 
+    left: 0; 
+    width: 490px;
+    color: white; /* Set text color (assuming you want it to contrast with the image) */
+    background-color: gray; /* Add a semi-transparent background to the text */
+    padding: 20px; /* Add padding to the text block */
+}
+
+.section-five{
+    background-color: #F3F3F3;
+    height: 400px;
+}
+.section-six{
+    background-color: #232323;
+    height: 450px;
+}
+.section-seven{
+    background-color: #111111;
+    height: 50px;
 }
