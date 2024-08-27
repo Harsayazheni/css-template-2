@@ -21,17 +21,17 @@ body{
     background-color: white;
     height: 120px;
 }
-ul{
+.navbar{
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     justify-content: space-between;
 }
-li{
+.nav-links{
     padding: 10px;
     list-style: none;
 }
-li:hover{
+.nav-links:hover{
     background-color: #8ABA56;
 }
 .section-three{
@@ -106,9 +106,20 @@ li:hover{
 }
 .section-six{
     background-color: #232323;
-    height: 450px;
+    height: 300px;
+    color: white;
 }
 .section-seven{
     background-color: #111111;
     height: 50px;
+    color: white;
+}
+.column-one{
+    width: 40%;
+}
+.column-two{
+    width: 30%;
+}
+.column-three{
+    width: 30%;
 }
