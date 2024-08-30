@@ -9,7 +9,9 @@ body{
     height: 50px;
 }
 .box{
-    padding: 20px 300px;
+    padding: 20px 0;
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -84,11 +86,18 @@ body{
 .section-four{
     background-color: white;
     height: 600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .col-one {
     position: relative;
-    width: 100%; 
-    margin: 0 auto;
+    width: 50%;
+}
+.col-two {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 .positioning {
     position: absolute;
@@ -103,6 +112,40 @@ body{
 .section-five{
     background-color: #F3F3F3;
     height: 400px;
+    
+    
+}
+.row-one{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.row-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    width: 45%;
+}
+.image{
+    width: 505px;
+}
+.description-one , .description-two{
+    width: 252px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.description-one{
+    background-color: orange;
+}
+.description-two{
+    background-color: aqua;
 }
 .section-six{
     background-color: #232323;
