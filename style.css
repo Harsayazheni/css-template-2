@@ -93,22 +93,42 @@ body{
     position: relative;
     width: 50%;
 }
+.positioning {
+    position: absolute;
+    bottom: 4px; 
+    left: 0; 
+    width: 490px;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
 .col-two {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
 }
-.positioning {
-    position: absolute;
-    bottom: 4px; 
-    left: 0; 
-    width: 490px;
-    color: white; /* Set text color (assuming you want it to contrast with the image) */
-    background-color: gray; /* Add a semi-transparent background to the text */
-    padding: 20px; /* Add padding to the text block */
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
-
+.col-two h2 {
+    text-align: left;
+    width: 100%;
+}
+.row p {
+    margin-left: auto;
+}
+.description h3 {
+    margin-top: 0;
+}
+.read-more{
+    border: 2px solid #8ABA56;
+    width: 150px;
+    padding: 10px;
+}
 .section-five{
     background-color: #F3F3F3;
     height: 400px;
@@ -165,4 +185,25 @@ body{
 }
 .column-three{
     width: 30%;
+}
+.list{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #8ABA56;
+}
+input{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: #8ABA56;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.icons{
+    background-color: black;
+    width: 90%;
+    height: 30px;
 }
